@@ -4,7 +4,7 @@ include 'header.php';
 
 <div class="login">
     <div class="container">
-        <form method="post" action="dashboard.php">
+        <form method="post" action="../core/login.php">
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col-4">

@@ -1,4 +1,8 @@
 <?php
+session_start();
+if(empty($_SESSION['customer_id'])){
+    header("Location: index.php");
+}
 include 'header.php';
 ?>
 

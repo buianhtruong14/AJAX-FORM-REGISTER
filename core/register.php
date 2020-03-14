@@ -10,15 +10,10 @@ $sql = "INSERT INTO customers (first_name, last_name, email, password)
         VALUE ('$first_name', '$last_name', '$email', '$password')";
 
 if($conn->query($sql) === TRUE) {
-    header("Location: login.php");
-} else {
-    echo "alert('Đăng kí thất bai')";
+    header("Location: ../public/completeRegister.php");
 }
 
 $conn->close();
 
-
-
-
-
 ?>
+

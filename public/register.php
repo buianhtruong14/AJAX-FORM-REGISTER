@@ -5,7 +5,7 @@ include 'header.php';
 <div class="register">
     <div class="container">
         <h2>Đăng Ký</h2>
-        <form method="post" >
+        <form method="post" action="../core/register.php">
             <div class="row">
                 <div class="col-6 form-register">
                     <div class="form-group">
@@ -33,19 +33,19 @@ include 'header.php';
                 </div>
             </div>
             <div class="row btn-register">
-                <button class="btn btn-primary" id="check">Submit</button>
+                <button type="submit" class="btn btn-primary" id="check">Submit</button>
             </div>
         </form>
     </div>
 </div>
 
 <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
 <script type="text/javascript" language="javascript">
     $(function () {
-        $("#check").click(function (e) {
+        $("#check").click(function () {
 
             var email = document.getElementById('email').value;
             var first_name = document.getElementById('first_name').value;
@@ -55,23 +55,7 @@ include 'header.php';
             if (!email || !first_name  || !last_name || !password ) {
                 alert('Hãy nhập lại thông tin của bạn !');
                 return false;
-            } else {
-                $.ajax({
-                    url: "app.yoyo.de/dangki.php",
-                    type: "post",
-                    data: {
-                        email: email,
-                        first_name: first_name,
-                        last_name: last_name,
-                        password: password
-                    },
-                    dataType:"json",
-                    success: function (data) {
-                        alert(data);
-                    }
-                });
             }
-            e.preventDefault();
 
         });
     });

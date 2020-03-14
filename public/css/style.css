@@ -21,7 +21,7 @@ header{
 .btn-login-header{
     text-align: right;
 }
-.btn-login-header a{
+.btn-login-header .link-login-header{
     text-decoration: none;
     padding: 12px;
     margin: 25px 0;
@@ -30,6 +30,17 @@ header{
     background: #1d486d;
     color: white;
     border-radius: 50%;
+}
+.btn-login-header #signout{
+    display: inline-block;
+    margin-right: 50px;
+    color: white;
+}
+.btn-login-header span{
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px;
+    margin: 20px;
 }
 .login a:hover{
     background: #1b00ff;
@@ -86,4 +97,40 @@ footer h4{
 .login{
     padding-top: 100px;
     padding-bottom: 260px;
+}
+
+.title-complete-register{
+    padding-top: 60px;
+    text-align: center;
+}
+.link-index-cr{
+    text-align: right;
+}
+.content-complete-register{
+    padding-bottom: 300px;
+}
+.dropdown-accout-db{
+    background: #1aa3ff;
+}
+.navbar-header2{
+    /*color: white;*/
+}
+.logo-header2{
+    color: white;
+    font-size: 50px;
+}
+.nav-link-header2{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-header2 li{
+    padding-left: 40px;
+}
+.account-header{
+    text-align: center;
+}
+.account-header .dropdown-account-header{
+    padding-top: 30px;
+    font-size: 20px;
 }
