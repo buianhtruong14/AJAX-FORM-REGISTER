@@ -1,72 +1,71 @@
-<?php
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    $link ="<a href='https://www.facebook.com/yyzhang1102'>link test click</a><a href='https://www.facebook.com/bonthanhlun'>link test click2</a>";
+    // $link = strstr($link,'href');
+    // $countLink = strpos($link,'href');
+    // $lengthLink = strlen($link);
+    // $link1 = substr($link,$countLink,$lengthLink);
+    // $relink1 = strstr($link1,'http');
+    // $cutLink = explode("'",$relink1);
+    // $dataLink[] = $cutLink[0];
 
-<div class="register">
-    <div class="container">
-        <h2>Đăng Ký</h2>
-        <form method="post" >
-            <div class="row">
-                <div class="col-6 form-register">
-                    <div class="form-group">
-                        <label for="first_name">First Name :</label>
-                        <input type="text" class="form-control" id="first_name"
-                               placeholder="Enter first name" name="first_name">
-                    </div>
-                    <div class="form-group">
-                        <label for="last_name">Last Name :</label>
-                        <input type="text" class="form-control" id="last_name"
-                               placeholder="Enter last name" name="last_name">
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="form-group">
-                        <label for="email">Email :</label>
-                        <input type="email" class="form-control" id="email"
-                               placeholder="Enter email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password :</label>
-                        <input type="password" class="form-control" id="password"
-                               placeholder="Enter password" name="password">
-                    </div>
-                </div>
-            </div>
-            <div class="row btn-register">
-                <button  type="submit" class="btn btn-primary" id="check">Submit</button>
-            </div>
-        </form>
-    </div>
-</div>
-
-<?php
-include 'footer.php';
-if (isset($_POST['email'])) {
-    include '../core/connectMySQL.php';
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-
-    $sql = "INSERT INTO customers (first_name, last_name, email, password)
-        VALUE ('$first_name', '$last_name', '$email', '$password')";
-
-
-    if ($conn->query($sql) === TRUE) {
-        $check = true;
+    // $countLink = strpos($relink1,'href');
+    // $lengthLink = strlen($relink1);
+    // $link2 = substr($relink1,$countLink,$lengthLink);
+    // $relink2 = strstr($link2,'http');
+    // $cutLink = explode("'",$relink2);
+    // $dataLink[] = $cutLink[0];
+    // $countLink = strpos($relink2,'href');
+    while (!empty(strpos($link,'href'))){
+        $link = strstr($link,'href');
+        $link = strstr($link,'http');
+        $cutLink = explode("'",$link);
+        $dataLink[] = $cutLink[0];
     }
+    // function cutlink :))
+    function cutLink($l){
+    
+        while (!empty(strpos($l,'href'))){
+            $l = strstr($l,'href');
+            $l = strstr($l,'http');
+            $cutLink = explode("'",$l);
+            $dataLink[] = $cutLink[0];
+            }
+        return $dataLink;
+    }
+    // print_r($dataLink);
+    // cutLink($link);
+    echo addslashes ("Freetuts's a website learning online");
 
-    $conn->close();
+    // echo $relink."</br>";
+    // echo $link1."</br>";
+    // echo $relink1."</br>";
+    // echo $link2."</br>";
+    // echo $relink2."</br>";
+    // echo $countLink."</br>";
+    // print_r($dataLink);
+    // check click 1 link oki
 
+    // $relink = explode("'",strstr($link,'http'));
+    // $link = str_replace($relink[0],'http://app.yoyo.de/core/mailCheck.php?id=88&name_campaign=test mail', $link);
+    // echo $link;
+    // print_r($relink);
 
-}
-?>
-<script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+    //checkmail oki============>>
 
-
-
-
-
+    // $h = "<div><p>tinh yêu xanh mượt</p></div>";
+    // $name = "Chiến Dịch 1";
+    // $id = 99;
+    // // $h = str_replace("<div>","<div><a href="."'http://app.yoyo.de/core/mailCheck.php?id=".$id."&name_campaign=".$name."'"." >lêulo</a>", $h);
+    // $h = str_replace("<p>","<p><img src="."'http://app.yoyo.de/core/mailCheck.php?id=".$id."&name_campaign=".$name."'"." width='1px' height='1px' >", $h);
+    // echo $h;
+    ?>
+</body>
+</html>

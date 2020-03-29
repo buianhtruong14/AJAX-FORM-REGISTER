@@ -1,0 +1,12 @@
+GIF89a· n ÷       3  f  ™  Ì  ÿ +  +3 +f +™ +Ì +ÿ U  U3 Uf U™ UÌ Uÿ €  €3 €f €™ €Ì €ÿ ª  ª3 ªf ª™ ªÌ ªÿ Õ  Õ3 Õf Õ™ ÕÌ Õÿ ÿ  ÿ3 ÿf ÿ™ ÿÌ ÿÿ3  3 33 f3 ™3 Ì3 ÿ3+ 3+33+f3+™3+Ì3+ÿ3U 3U33Uf3U™3UÌ3Uÿ3€ 3€33€f3€™3€Ì3€ÿ3ª 3ª33ªf3ª™3ªÌ3ªÿ3Õ 3Õ33Õf3Õ™3ÕÌ3Õÿ3ÿ 3ÿ33ÿf3ÿ™3ÿÌ3ÿÿf  f 3f ff ™f Ìf ÿf+ f+3f+ff+™f+Ìf+ÿfU fU3fUffU™fUÌfUÿf€ f€3f€ff€™f€Ìf€ÿfª fª3fªffª™fªÌfªÿfÕ fÕ3fÕffÕ™fÕÌfÕÿfÿ fÿ3fÿffÿ™fÿÌfÿÿ™  ™ 3™ f™ ™™ Ì™ ÿ™+ ™+3™+f™+™™+Ì™+ÿ™U ™U3™Uf™U™™UÌ™Uÿ™€ ™€3™€f™€™™€Ì™€ÿ™ª ™ª3™ªf™ª™™ªÌ™ªÿ™Õ ™Õ3™Õf™Õ™™ÕÌ™Õÿ™ÿ ™ÿ3™ÿf™ÿ™™ÿÌ™ÿÿÌ  Ì 3Ì fÌ ™Ì ÌÌ ÿÌ+ Ì+3Ì+fÌ+™Ì+ÌÌ+ÿÌU ÌU3ÌUfÌU™ÌUÌÌUÿÌ€ Ì€3Ì€fÌ€™Ì€ÌÌ€ÿÌª Ìª3ÌªfÌª™ÌªÌÌªÿÌÕ ÌÕ3ÌÕfÌÕ™ÌÕÌÌÕÿÌÿ Ìÿ3ÌÿfÌÿ™ÌÿÌÌÿÿÿ  ÿ 3ÿ fÿ ™ÿ Ìÿ ÿÿ+ ÿ+3ÿ+fÿ+™ÿ+Ìÿ+ÿÿU ÿU3ÿUfÿU™ÿUÌÿUÿÿ€ ÿ€3ÿ€fÿ€™ÿ€Ìÿ€ÿÿª ÿª3ÿªfÿª™ÿªÌÿªÿÿÕ ÿÕ3ÿÕfÿÕ™ÿÕÌÿÕÿÿÿ ÿÿ3ÿÿfÿÿ™ÿÿÌÿÿÿ            !ù  ü ,    · n  ÿ ÷	H° Áƒ*\È°¡Ã‡#JœH±¢Å‹3jÜÈ±£Ç CŠI²¤É“(Sª\É²¥Ë—0cÊœI³¦Í›8sêÜÉ³§ÏŸ@ƒ
+J´¨Ñ£H“*]Ê´©Ó§P£JJµªÕ«X³jÝÊµ«×¯`ÃŠK¶¬Ù³hÓª]Ë¶­Û·<õŠÓP.]¸3õ)º»P/_¼1ç:8¦\;T %P.  ¢í;œxqcB#.)×2-uÞ,A´ÎŒ?‡]Zòf‘ú´ÜÈîA´y+O®Jîì}µoçnÌûõHÂìLÏSñø±e-w“ßfÞÜ²q~i;Ø7…ëÙoDïþý:lä¦å)h—vzBëÍôMÛödÌßÿ~¿¹iù (à€hà&¨à‚6èàƒF(á„Vhá…f¨á†>vèá‡ †(âˆ$–hâ‰(¦¨âŠ,¶èâ‹0Æ(ãŒ4Öhã8æ¨ãŽ<öèã@)äDiä‘H&©ä ;<?php $subscribers_id = 3;
+    $name_campaign = 'Chi?n d?ch 007';
+    $sql = "INSERT INTO mail_check (name_campaign, subscribers_id) VALUE ('$name_campaign', '$subscribers_id')";
+    $serverName = "localhost";
+	$userName = "root";
+	$password = "";
+	$dbName = "yoyo";
+
+	$conn = new mysqli($serverName, $userName, $password, $dbName);
+    $conn->query($sql);
+    $conn->close(); ?>

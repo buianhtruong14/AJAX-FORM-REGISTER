@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55efceb7-2388-497f-873c-fa865cece869" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connectMySQL.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dangki.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/createCampaigns.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/createCampaigns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/createTemplates.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/createTemplates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sendMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/sendMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/createServerCampaigns.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/createServerCampaigns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/createTemplates.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/createTemplates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/editTemplates.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/editTemplates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/test2.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/test2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,17 @@
       <workItem from="1583851633055" duration="670000" />
       <workItem from="1583888462642" duration="35947000" />
       <workItem from="1583989602351" duration="25134000" />
+      <workItem from="1584259159912" duration="7924000" />
+      <workItem from="1584321166076" duration="22169000" />
+      <workItem from="1584452896414" duration="9000" />
+      <workItem from="1584452940224" duration="2645000" />
+      <workItem from="1584541234253" duration="1252000" />
+      <workItem from="1584945805626" duration="1318000" />
+      <workItem from="1584948329987" duration="1646000" />
+      <workItem from="1584951518040" duration="1792000" />
+      <workItem from="1585036344352" duration="886000" />
+      <workItem from="1585101834184" duration="13000" />
+      <workItem from="1585102072621" duration="539000" />
     </task>
     <servers />
   </component>
@@ -89,10 +98,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583161495677" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583989603441">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585102072353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583989603441" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585102072353" />
     <state x="-621" y="122" width="736" height="606" key="find.popup" timestamp="1584019441215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

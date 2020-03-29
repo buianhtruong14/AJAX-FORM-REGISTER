@@ -60,8 +60,8 @@ include 'footer.php';
                     dataType: "json",
                     success: function (data) {
                         if (data) {
-                            alert('Thêm danh sách thành công!');
-                            window.location.href = "campaigns.php"
+                            alert('Tạo Chiến dịch thành công!');
+                            window.location.href = "sendMail.php"
                         }
                     }
                 });
